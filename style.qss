@@ -1,0 +1,88 @@
+/* dark_theme.qss */
+QMainWindow {
+    background-color: #252525;
+}
+
+QWidget {
+    background-color: #252525;
+    color: #f0f0f0;
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 10pt;
+}
+
+QTextEdit {
+    background-color: #333;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 10px;
+    color: #eee;
+}
+
+QStatusBar {
+    background-color: #404040;
+    color: #ddd;
+    border-top: 1px solid #555;
+}
+
+QLabel {
+    /* Labels will inherit QWidget styles by default, can customize further */
+}
+
+QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #45a049;
+}
+
+QPushButton:pressed {
+    background-color: #3d8b40;
+}
+
+QPushButton:disabled {
+    background-color: #6c757d;
+    color: #ccc;
+}
+
+QLineEdit {
+    background-color: #333;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 10px;
+    color: #eee;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background: #333;
+    width: 10px;
+    margin: 0px 0 0px 0;
+}
+
+QScrollBar::handle:vertical {
+    background: #555;
+    min-height: 20px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    background: none;
+}
+
+
+/* If you are using QLabel for instructions, use #instructionsLabel */
+#instructionsLabel {
+    font-family: "Courier New", monospace;
+    font-size: 11pt;
+    color: #a0a0a0;
+}
+#instructionsText {
+    font-family: Consolas, monospace;
+    font-size: 11pt;
+    color: #a0a0a0;
+}
