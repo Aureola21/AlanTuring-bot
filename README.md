@@ -62,7 +62,7 @@ Engage in meaningful discussions on computer science, artificial intelligence, c
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/AlanTuring-bot.git
+git clone https://github.com/Aureola21/AlanTuring-bot.git
 cd AlanTuring-bot
 ```
 
